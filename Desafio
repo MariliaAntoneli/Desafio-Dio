@@ -1,0 +1,23 @@
+
+let heroi = "Deadpool"
+let xp = 6812
+let elo
+
+if (0 <= xp && xp <= 1000) { elo = "Ferro";
+} else if (1001 <= xp && xp <= 2000) {
+ elo = "Bronze";
+}else if (2001 <= xp && xp <= 5000) {
+ elo = "Prata";
+}else if (5001 <= xp && xp <= 7000) {
+ elo = "Ouro";
+}else if (7001 <= xp && xp <= 8000) {
+ elo = "Platina";
+}else if (8001 <= xp && xp <= 9000) {
+ elo = "Ascendente";
+}else if (9001 <= xp && xp <= 10000) {
+ elo = "Imortal";
+}else if (xp >= 10001) {
+ elo = "Radiante";
+}
+
+console.log("O herói de nome " + heroi + " está no nível de " + elo )
